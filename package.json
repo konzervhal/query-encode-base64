@@ -1,0 +1,14 @@
+{
+  "name": "query-encode-base64",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c rollup.config.js"
+  },
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.0.0",
+    "rollup": "^3.21.6",
+    "@rollup/plugin-terser": "^0.4.1"
+  }
+}
